@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hansika's Online Library</title>
+    <style>
+      body {
+        background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+      }
+      .content {
+        font-family: "Times New Roman", Times, serif;
+        color: #45171d;
+      }
+      h1 {
+        text-align: center;
+        font-size: 72px;
+        font-weight: bolder;
+        background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1228&q=80);
+        color: white;
+      }
+      h2 {
+        text-align: center;
+        font-size: 54px;
+        border: 1px solid white;
+      }
+      p {
+        text-align: left;
+        font-size: 36px;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-style: italic;
+        text-decoration: underline;
+      }
+      li {
+        display: inline;
+        text-align: center;
+        padding: 50px;
+      }
+      a {
+        text-decoration: none;
+      }
+      .twitter {
+        color: #45171d;
+        display: flex;
+      }
+      .storygraph {
+        color: #45171d;
+        display: flex;
+      }
+      h3 {
+        text-align: left;
+        font-size: 54px;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(5, 100px);
+        grid-template-rows: repeat(5, 100px);
+        grid-auto-flow: column;
+        grid-gap: 100px;
+        margin: 0 auto;
+      }
+      .size {
+        max-width: 500%;
+        max-height: 500%;
+      }
+      button {
+        background-color: #ea8a8a;
+        border: 5px solid #45171d;
+        border-radius: 60px;
+        box-shadow: 0px 8px 8px 0px rgb(37, 39, 89, 0.08);
+        text-align: center;
+        display: block;
+        padding: 30px 38px;
+        margin: 20px auto;
+        transition: all 200ms ease;
+        color: #45171d;
+        line-height: 22px;
+        font-size: 36px;
+        cursor: pointer;
+        margin-top: 40px;
+      }
+      button:hover {
+        background: #ee9ca7;
+        color: #45171d;
+        border: 5px solid #45171d;
+      }
+      .author {
+        display: block;
+        text-align: right;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Hansika's Online Library</h1>
+      <h2>A catalog of the books I have read so far in 2023</h2>
+      <p>
+        I love reading, and I always have! But for a small bit of time, I forgot
+        just how much I enjoy it. 2023 has been a <em>hard</em> year, but
+        escaping into storylines and worlds built only by words has been
+        wonderful.
+        <br />
+        <br />
+        Here are the books I have read this year.
+        <strong
+          >You can click on the books if you want to purchase them!</strong
+        >
+      </p>
+      <hr color="#a2a8d3" />
+      <ul>
+        <a href="https://twitter.com/hansika_17" target="_blank"
+          ><li class="twitter">Follow me on Twitter</li></a
+        >
+        <a
+          href="https://app.thestorygraph.com/profile/hansika_r"
+          target="_blank"
+          ><li class="storygraph">Follow me on Storygraph</li></a
+        >
+      </ul>
+      <hr color="#a2a8d3" />
+      <h3>2023: Read Books</h3>
+      <div class="gallery">
+        <figure class="beachread">
+          <a
+            href="https://www.waterstones.com/book/beach-read/emily-henry/9780241989524"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/094/original/Beach_Read.jpeg?1691844283"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="atlassix">
+          <a
+            href="https://www.waterstones.com/book/the-atlas-six/olivie-blake/9781529095258"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/095/original/Atlas_Six.jpg?1691844790"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="freshwater">
+          <a
+            href="https://www.waterstones.com/book/freshwater/akwaeke-emezi/9780571345403"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/097/original/Freshwater.jpeg?1691845021"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="encyclopediafaeries">
+          <a
+            href="https://www.waterstones.com/book/emily-wildes-encyclopaedia-of-faeries/heather-fawcett/9780356519142"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/098/original/Faeries.jpg?1691845139"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="thetrees">
+          <a
+            href="https://www.waterstones.com/book/the-trees/percival-everett/9781914391170"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/099/original/The_Trees.jpeg?1691845234"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="goodintentions">
+          <a
+            href="https://www.waterstones.com/book/good-intentions/kasim-ali/9780008450793"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/101/original/Good_Intentions.jpg?1691845494"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="deadromantics">
+          <a
+            href="https://www.waterstones.com/book/the-dead-romantics/ashley-poston/9780008566562"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/103/original/The_Dead_Romantics.jpeg?1691845626"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="imafan">
+          <a
+            href="https://www.waterstones.com/book/im-a-fan/sheena-patel/9781783789818"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/104/original/I'm_a_Fan.jpg?1691845740"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="pet">
+          <a
+            href="https://www.waterstones.com/book/pet/akwaeke-emezi/9780571355112"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/105/original/Pet.jpg?1691845888"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="severalpeoplearetyping">
+          <a
+            href="https://www.waterstones.com/book/several-people-are-typing/calvin-kasulke/9781529358384"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/108/original/Several_People_Are_Typing.jpg?1691845972"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="hijabbutchblues">
+          <a
+            href="https://www.waterstones.com/book/hijab-butch-blues/lamya-h/9781785788499"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/112/original/Hijab_Butch_Blues.jpg?1691846095"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="foolofdeath">
+          <a
+            href="https://www.waterstones.com/book/you-made-a-fool-of-death-with-your-beauty/akwaeke-emezi/9780571372683"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/113/original/You_Made_a_Fool_of_Death_with_Your_Beauty.jpg?1691846233"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="happyplace">
+          <a
+            href="https://www.waterstones.com/book/happy-place/emily-henry/9780241609460"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/114/original/Happy_Place.jpg?1691846345"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="timewar">
+          <a
+            href="https://www.waterstones.com/book/this-is-how-you-lose-the-time-war/amal-el-mohtar/max-gladstone/9781529405231"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/115/original/This_is_How_You_Lose_the_Time_War.jpeg?1691846436"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="beautifulworld">
+          <a
+            href="https://www.waterstones.com/book/beautiful-world-where-are-you/sally-rooney/9780571365449"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/116/original/Beautiful_World_Where_Are_You.jpeg?1691846537"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="memorial">
+          <a
+            href="https://www.waterstones.com/book/memorial/bryan-washington/9781838950101"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/119/original/Memorial.jpeg?1691846629"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="momdied">
+          <a
+            href="https://www.waterstones.com/book/im-glad-my-mom-died/jennette-mccurdy/9781982185824"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/120/original/I'm_Glad_My_Mom_Died.jpeg?1691846732"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="guidetocatholicschool">
+          <a
+            href="https://www.waterstones.com/book/the-lesbianas-guide-to-catholic-school/sonora-reyes/9780571373765"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/121/original/The_Lesbiana's_Guide_to_Catholic_School.jpeg?1691846823"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="pageboy">
+          <a
+            href="https://www.waterstones.com/book/pageboy/elliot-page/9780857529282"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/159/original/Pageboy_Elliot_Page.jpg?1691867735"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="legendslattes">
+          <a
+            href="https://www.waterstones.com/book/legends-and-lattes/travis-baldree/9798985663211"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/125/original/Legends___Lattes.jpeg?1691847090"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="youdeserveeachother">
+          <a
+            href="https://www.waterstones.com/book/you-deserve-each-other/sarah-hogle/9780349424347"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/130/original/You_Deserve_Each_Other.jpeg?1691847187"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="smallworlds">
+          <a
+            href="https://www.waterstones.com/book/small-worlds/caleb-azumah-nelson/9780241574348"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/131/original/Small_Worlds.jpeg?1691847283"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="parisian">
+          <a
+            href="https://www.waterstones.com/book/the-parisian/isabella-hammad/9781784705701"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/132/original/The_Parisian.jpeg?1691847368"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="betweenus">
+          <a
+            href="https://www.waterstones.com/book/between-us/mhairi-mcfarlane/9780008412487"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/133/original/Between_Us.jpeg?1691847454"
+              class="size"
+            />
+          </a>
+        </figure>
+        <figure class="dreamhouse">
+          <a
+            href="https://www.waterstones.com/book/in-the-dream-house/carmen-maria-machado/9781788162258"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/134/original/In_the_Dream_House.jpeg?1691847546"
+              class="size"
+            />
+          </a>
+        </figure>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <button>Send Me Your Book Recommendations!</button>
+      <span class="author">Coded by Hansika Ramchandani</span>
+    </div>
+    <script>
+      function bookRec() {
+        let name = prompt("What is your name?");
+        let book = prompt("What is your favourite book?");
+        let bookclub = prompt(
+          "Would you like to join a bookclub? Please answer with yes or no"
+        );
+        bookclub = bookclub.toLowerCase().trim();
+        if (bookclub === "yes") {
+          prompt("What is your email? I will be in touch!");
+        } else {
+          alert("Thank you for letting me know!");
+        }
+      }
+      let bookRecButton = document.querySelector("button");
+
+      bookRecButton.addEventListener("click", bookRec);
+    </script>
+  </body>
+</html>
